@@ -1,0 +1,17 @@
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <limit-password />
+        <!--监控登录尝试-->
+        <watch-login />
+        <!--重置密码-->
+        <reset-password />
+        <!--强行锁定-->
+        <force-lock />
+        <!--清除所有数据 回复出厂设置-->
+        <wipe-data />
+        <expire-password />
+        <encrypted-storage />
+        <disable-camera />
+        <disable-keyguard-features />
+    </uses-policies>
+</device-admin>
